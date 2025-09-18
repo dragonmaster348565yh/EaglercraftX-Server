@@ -1,0 +1,26 @@
+# TradingPlugin Configuration
+# Customize plugin messages and features here
+
+# Language file to use (only en-US.yml is supported)
+language: en-US
+
+# Enable XP trading
+xp-trading: true
+
+# Trade request duration in milliseconds
+trade-request-duration: 30000
+
+# Auto accept trades cooldown in milliseconds
+auto-accept-cooldown: 10000
+
+# Custom messages (edit as needed)
+messages:
+  trade-request-sent: "You invited %name% to trade."
+  trade-request-received: "You have been invited to trade with %name%."
+  trade-accepted: "Trade accepted."
+  trade-declined: "Trade declined."
+  trade-cancelled: "Trade cancelled."
+  error-not-online: "Could not find player %name%."
+  error-no-permission: "You don't have permission to do that."
+
+# Add more options as needed

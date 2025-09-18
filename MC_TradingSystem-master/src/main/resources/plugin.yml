@@ -1,0 +1,15 @@
+name: TradingPlugin
+version: '1.2-RELEASE'
+main: net.justonedeveloper.plugins.trading.main.TradingMain
+api-version: 1.8.8
+prefix: Trading
+authors:
+  - JustOneDeveloper
+description: |
+  A polished trading plugin for Spigot and Paper 1.8.8. Allows players to trade items and XP securely. Designed for compatibility with most 1.8.8 servers. For BungeeCord support, use a messaging channel or a dedicated Bungee plugin.
+website: https://github.com/justonedeveloper/TradingPlugin
+commands:
+  trade:
+    description: Trade with other players
+    usage: /trade [player]
+    aliases: [tr, trading]
