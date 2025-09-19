@@ -1,0 +1,51 @@
+item0:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 1
+item1:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+      PROTECTION_FALL: 1
+item2:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DURABILITY: 1
+item3:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 1
+item5:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_PICKAXE
+item6:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_PICKAXE
+item8:
+  ==: org.bukkit.inventory.ItemStack
+  type: CARROT_ITEM
+  amount: 61
+item10:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLDEN_APPLE
+  amount: 5
+item11:
+  ==: org.bukkit.inventory.ItemStack
+  type: NETHER_STALK
+  amount: 19
+item25:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+  amount: 6

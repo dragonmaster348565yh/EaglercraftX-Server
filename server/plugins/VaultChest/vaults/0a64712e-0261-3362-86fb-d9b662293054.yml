@@ -1,0 +1,125 @@
+item0:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    stored-enchants:
+      PROTECTION_ENVIRONMENTAL: 3
+      ARROW_DAMAGE: 3
+item1:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 64
+item2:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_INGOT
+  amount: 64
+item3:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 64
+item4:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND
+  amount: 14
+item5:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENDER_PEARL
+  amount: 2
+item6:
+  ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 26
+item7:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_INGOT
+  amount: 2
+item8:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 64
+item9:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 64
+item10:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    stored-enchants:
+      DAMAGE_ALL: 3
+item12:
+  ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+  amount: 38
+item13:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  amount: 26
+item14:
+  ==: org.bukkit.inventory.ItemStack
+  type: INK_SACK
+  damage: 4
+  amount: 64
+item15:
+  ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 4
+item16:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    stored-enchants:
+      PROTECTION_ENVIRONMENTAL: 3
+      DURABILITY: 3
+item17:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    stored-enchants:
+      DIG_SPEED: 1
+item18:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    stored-enchants:
+      DAMAGE_UNDEAD: 1
+item21:
+  ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  damage: 16341
+item23:
+  ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 64
+item24:
+  ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  amount: 64
+item25:
+  ==: org.bukkit.inventory.ItemStack
+  type: LOG
+  damage: 2
+  amount: 64
+item26:
+  ==: org.bukkit.inventory.ItemStack
+  type: WRITTEN_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK_SIGNED
+    title: ENFORCER DUTIES
+    author: Preston
+    pages:
+    - "Enforcer – min. 135SC\r§0\n§0 Benefits: Authority in conflicts, access to restricted\
+      \ areas, social recognition.\r§0\n§0 Societal impact: Reduces violations, ensures\
+      \ fairness, strengthens Hollowism principles. You also track peoples credits."
+    generation: 0

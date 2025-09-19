@@ -1,0 +1,18 @@
+name: TradePlugin
+main: com.example.tradeplugin.TradePlugin
+version: 1.0
+api-version: 1.8
+commands:
+  trade:
+    description: Request a trade with another player
+    usage: /trade <player>
+  ta:
+    description: Accept a trade request
+    usage: /ta
+  td:
+    description: Decline a trade request
+    usage: /td
+permissions:
+  tradeplugin.use:
+    description: Allows use of trade commands
+    default: true

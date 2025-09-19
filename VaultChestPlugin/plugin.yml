@@ -1,0 +1,19 @@
+name: VaultChest
+version: 1.0
+main: com.example.vaultchest.VaultChestPlugin
+api-version: 1.8
+author: YourName
+description: A simple vault system for players to store items
+
+commands:
+  vault:
+    description: Open your personal vault
+    usage: /vault
+
+permissions:
+  vaultchest.use:
+    description: Allows players to use the vault command
+    default: true
+  vaultchest.reload:
+    description: Allows reloading VaultChest config
+    default: op

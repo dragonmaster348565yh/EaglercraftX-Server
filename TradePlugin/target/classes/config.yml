@@ -1,0 +1,8 @@
+# TradePlugin Configuration
+# This file controls settings for the trading plugin.
+
+trade:
+  requestTimeout: 30   # Seconds before a trade request expires
+  allowCrossWorld: false  # Allow trading between players in different worlds
+  maxItems: 9           # Maximum items allowed per trade
+  logTrades: true       # Log all completed trades to server console
