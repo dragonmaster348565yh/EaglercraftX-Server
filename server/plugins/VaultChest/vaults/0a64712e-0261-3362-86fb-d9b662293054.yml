@@ -1,20 +1,20 @@
 item0:
   ==: org.bukkit.inventory.ItemStack
-  type: ENCHANTED_BOOK
-  meta:
-    ==: ItemMeta
-    meta-type: ENCHANTED
-    stored-enchants:
-      PROTECTION_ENVIRONMENTAL: 3
-      ARROW_DAMAGE: 3
+  type: IRON_INGOT
+  amount: 64
 item1:
   ==: org.bukkit.inventory.ItemStack
   type: IRON_INGOT
-  amount: 64
+  amount: 6
 item2:
   ==: org.bukkit.inventory.ItemStack
-  type: GOLD_INGOT
-  amount: 64
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DAMAGE_ALL: 3
+    repair-cost: 1
 item3:
   ==: org.bukkit.inventory.ItemStack
   type: IRON_INGOT
@@ -22,7 +22,7 @@ item3:
 item4:
   ==: org.bukkit.inventory.ItemStack
   type: DIAMOND
-  amount: 14
+  amount: 4
 item5:
   ==: org.bukkit.inventory.ItemStack
   type: ENDER_PEARL
@@ -33,32 +33,24 @@ item6:
   amount: 26
 item7:
   ==: org.bukkit.inventory.ItemStack
-  type: GOLD_INGOT
-  amount: 2
+  type: IRON_INGOT
+  amount: 15
 item8:
   ==: org.bukkit.inventory.ItemStack
   type: IRON_INGOT
-  amount: 64
+  amount: 34
 item9:
   ==: org.bukkit.inventory.ItemStack
   type: IRON_INGOT
   amount: 64
-item10:
-  ==: org.bukkit.inventory.ItemStack
-  type: ENCHANTED_BOOK
-  meta:
-    ==: ItemMeta
-    meta-type: ENCHANTED
-    stored-enchants:
-      DAMAGE_ALL: 3
 item12:
   ==: org.bukkit.inventory.ItemStack
   type: ARROW
   amount: 38
 item13:
   ==: org.bukkit.inventory.ItemStack
-  type: IRON_INGOT
-  amount: 26
+  type: GOLDEN_APPLE
+  damage: 1
 item14:
   ==: org.bukkit.inventory.ItemStack
   type: INK_SACK
@@ -68,15 +60,6 @@ item15:
   ==: org.bukkit.inventory.ItemStack
   type: LOG
   amount: 4
-item16:
-  ==: org.bukkit.inventory.ItemStack
-  type: ENCHANTED_BOOK
-  meta:
-    ==: ItemMeta
-    meta-type: ENCHANTED
-    stored-enchants:
-      PROTECTION_ENVIRONMENTAL: 3
-      DURABILITY: 3
 item17:
   ==: org.bukkit.inventory.ItemStack
   type: ENCHANTED_BOOK
@@ -93,10 +76,25 @@ item18:
     meta-type: ENCHANTED
     stored-enchants:
       DAMAGE_UNDEAD: 1
+item20:
+  ==: org.bukkit.inventory.ItemStack
+  type: WORKBENCH
+  amount: 2
 item21:
   ==: org.bukkit.inventory.ItemStack
   type: POTION
   damage: 16341
+item22:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_PICKAXE
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 3
+      DURABILITY: 3
+      LOOT_BONUS_BLOCKS: 2
 item23:
   ==: org.bukkit.inventory.ItemStack
   type: LOG

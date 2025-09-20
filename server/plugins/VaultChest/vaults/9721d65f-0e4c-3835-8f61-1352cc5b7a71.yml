@@ -34,16 +34,24 @@ item8:
   type: LAVA_BUCKET
 item9:
   ==: org.bukkit.inventory.ItemStack
-  type: WHEAT
-  amount: 18
+  type: COAL
+  amount: 9
 item10:
   ==: org.bukkit.inventory.ItemStack
   type: SEEDS
   amount: 48
 item11:
   ==: org.bukkit.inventory.ItemStack
-  type: BONE
-  amount: 17
+  type: LOG
+  damage: 1
+  amount: 64
 item12:
   ==: org.bukkit.inventory.ItemStack
   type: WORKBENCH
+item16:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENDER_PEARL
+item24:
+  ==: org.bukkit.inventory.ItemStack
+  type: WHEAT
+  amount: 6
