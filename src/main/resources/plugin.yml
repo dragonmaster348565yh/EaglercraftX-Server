@@ -1,0 +1,31 @@
+name: EconomyPlugin
+version: 1.0.0
+main: com.economy.EconomyPlugin
+api-version: 1.8
+author: YourName
+description: A comprehensive economy plugin with dynamic market system and supply/demand mechanics
+
+commands:
+  balance:
+    description: Check your current balance
+    usage: /balance
+    aliases: [bal, money]
+  shop:
+    description: Open the shop to buy items
+    usage: /shop
+    aliases: [store, market]
+  sell:
+    description: Open the sell menu to sell items to the server
+    usage: /sell
+    aliases: [s]
+
+permissions:
+  economy.balance:
+    description: Allows checking your balance
+    default: true
+  economy.shop:
+    description: Allows access to the shop
+    default: true
+  economy.sell:
+    description: Allows selling items to the server
+    default: true

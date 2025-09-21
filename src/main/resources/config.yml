@@ -1,0 +1,170 @@
+# Economy Plugin Configuration
+# Currency symbol and formatting
+currency:
+  symbol: "$"
+  format: "%,.2f"
+  starting-balance: 100.0
+
+# Market settings
+market:
+  # How often prices update (in minutes)
+  update-interval: 3
+  # Price fluctuation range (0.1 = 10% max change)
+  fluctuation-range: 0.25
+  # Minimum price multiplier (prevents items from becoming too cheap)
+  min-price-multiplier: 0.05
+  # Maximum price multiplier (prevents items from becoming too expensive)
+  max-price-multiplier: 10.0
+  # Supply/demand impact on prices
+  supply-demand-impact: 0.5
+  # How quickly supply/demand levels decay towards neutral
+  decay-rate: 0.8
+  # Minimum price for any item
+  min-price: 0.01
+
+# Item base prices (in dollars) - Only Building Blocks, Ores, and Food
+item-prices:
+  # Building Blocks - Common blocks
+  DIRT: 0.02
+  COBBLESTONE: 0.05
+  STONE: 0.08
+  SAND: 0.03
+  GRAVEL: 0.02
+  CLAY: 0.04
+  GRASS: 0.03
+  
+  # Building Blocks - Wood and logs
+  OAK_LOG: 0.15
+  BIRCH_LOG: 0.15
+  SPRUCE_LOG: 0.15
+  JUNGLE_LOG: 0.20
+  ACACIA_LOG: 0.20
+  DARK_OAK_LOG: 0.25
+  OAK_PLANKS: 0.05
+  BIRCH_PLANKS: 0.05
+  SPRUCE_PLANKS: 0.05
+  JUNGLE_PLANKS: 0.07
+  ACACIA_PLANKS: 0.07
+  DARK_OAK_PLANKS: 0.08
+  
+  # Building Blocks - Decorative blocks
+  GLASS: 0.10
+  GLASS_PANE: 0.05
+  TORCH: 0.15
+  LADDER: 0.20
+  CHEST: 2.50
+  FURNACE: 3.00
+  CRAFTING_TABLE: 1.00
+  BED: 1.50
+  DOOR: 1.00
+  TRAPDOOR: 0.75
+  FENCE: 0.50
+  FENCE_GATE: 1.00
+  STAIRS: 0.75
+  SLAB: 0.40
+  
+  # Ores and minerals
+  COAL: 0.50
+  IRON_INGOT: 2.00
+  GOLD_INGOT: 5.00
+  DIAMOND: 100.00
+  EMERALD: 150.00
+  REDSTONE: 0.30
+  LAPIS_LAZULI: 0.40
+  QUARTZ: 1.50
+  
+  # Food items
+  WHEAT: 0.10
+  CARROT: 0.15
+  POTATO: 0.15
+  BREAD: 0.25
+  APPLE: 0.20
+  BEEF: 0.30
+  PORKCHOP: 0.30
+  CHICKEN: 0.25
+  MUTTON: 0.30
+  RABBIT: 0.35
+  FISH: 0.40
+  SALMON: 0.45
+  SUGAR: 0.20
+  COCOA_BEANS: 0.30
+
+# Shop categories - Only Building Blocks, Ores, and Food
+shop-categories:
+  blocks:
+    name: "&6Building Blocks"
+    items:
+      - DIRT
+      - COBBLESTONE
+      - STONE
+      - SAND
+      - GRAVEL
+      - CLAY
+      - GRASS
+      - OAK_LOG
+      - BIRCH_LOG
+      - SPRUCE_LOG
+      - JUNGLE_LOG
+      - ACACIA_LOG
+      - DARK_OAK_LOG
+      - OAK_PLANKS
+      - BIRCH_PLANKS
+      - SPRUCE_PLANKS
+      - JUNGLE_PLANKS
+      - ACACIA_PLANKS
+      - DARK_OAK_PLANKS
+      - GLASS
+      - GLASS_PANE
+      - TORCH
+      - LADDER
+      - CHEST
+      - FURNACE
+      - CRAFTING_TABLE
+      - BED
+      - DOOR
+      - TRAPDOOR
+      - FENCE
+      - FENCE_GATE
+      - STAIRS
+      - SLAB
+  
+  ores:
+    name: "&cOres & Minerals"
+    items:
+      - COAL
+      - IRON_INGOT
+      - GOLD_INGOT
+      - DIAMOND
+      - EMERALD
+      - REDSTONE
+      - LAPIS_LAZULI
+      - QUARTZ
+  
+  food:
+    name: "&aFood & Crops"
+    items:
+      - WHEAT
+      - CARROT
+      - POTATO
+      - BREAD
+      - APPLE
+      - BEEF
+      - PORKCHOP
+      - CHICKEN
+      - MUTTON
+      - RABBIT
+      - FISH
+      - SALMON
+      - SUGAR
+      - COCOA_BEANS
+
+# Database settings
+database:
+  type: "file" # file, mysql, sqlite
+  file: "economy.db"
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "economy"
+    username: "root"
+    password: "password"
